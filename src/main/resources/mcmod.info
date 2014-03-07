@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ItemSearch",
+  "name": "Briman's Item Search",
+  "description": "Added chest searching via command.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/dries007/ItemSearch",
+  "updateUrl": "",
+  "authors": ["Dries007", "briman0094"],
+  "credits": "briman0094 for src code, Dries007 for 1.7.2 update.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
