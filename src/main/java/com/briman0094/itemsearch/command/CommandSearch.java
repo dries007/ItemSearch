@@ -51,14 +51,6 @@ public class CommandSearch extends CommandBase
     }
 
     @Override
-    public List getCommandAliases()
-    {
-        ArrayList<String> aliases = new ArrayList<String>();
-        aliases.add("s");
-        return aliases;
-    }
-
-    @Override
     public void processCommand(ICommandSender sender, String[] args)
     {
         if (FMLCommonHandler.instance().getEffectiveSide().isClient()) return;
@@ -66,7 +58,7 @@ public class CommandSearch extends CommandBase
         EntityPlayer player = (EntityPlayer) sender;
         if (args.length <= 0)
         {
-            player.addChatComponentMessage(new ChatComponentText("Usage: /search <itemName> [radius]"));
+            player.addChatComponentMessage(new ChatComponentText("Usage: /search <itemName|clear> [radius]"));
         }
         else if (args.length == 1 && args[0].equalsIgnoreCase("clear"))
         {

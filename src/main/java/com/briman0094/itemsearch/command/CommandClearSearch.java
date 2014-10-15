@@ -13,21 +13,13 @@ public class CommandClearSearch extends CommandBase
     @Override
     public String getCommandName()
     {
-        return "cs";
+        return "clear_search";
     }
 
     @Override
     public String getCommandUsage(ICommandSender var1)
     {
         return "Clear the search entry.";
-    }
-
-    @Override
-    public List getCommandAliases()
-    {
-        ArrayList<String> aliases = new ArrayList<String>();
-        aliases.add("sc");
-        return aliases;
     }
 
     @Override

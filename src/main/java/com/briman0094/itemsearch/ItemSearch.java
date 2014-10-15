@@ -16,7 +16,7 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.config.Configuration;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = ItemSearch.MOD_ID, name = "Briman's Item Search", useMetadata = true)
+@Mod(modid = ItemSearch.MOD_ID, name = "Item Search", useMetadata = true)
 public class ItemSearch
 {
     public static final String  MOD_ID             = "ItemSearch";
